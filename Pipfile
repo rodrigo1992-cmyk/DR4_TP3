@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+google-generativeai = "*"
+python-dotenv = "*"
+pandas = "*"
+transformers = "*"
+torch = "*"
+ipywidgets = "*"
+beautifulsoup4 = "*"
+tiktoken = "*"
+matplotlib = "*"
+seaborn = "*"
+scipy = "*"
+scikit-learn = "*"
+summarizer = "*"
+sacrebleu = "*"
+rouge = "*"
+streamlit = "*"
+plotly = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
